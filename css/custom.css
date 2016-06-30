@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: darkorange;
+    color: dodgerblue;
     background-color:white;
 }
 .row{
@@ -21,10 +21,10 @@ height: auto;
 }
 
 .bg-team {
-    background-color: royalblue; /* Green */
+    background-color: dodgerblue; /* Green */
     
     padding-top: 100px;
-    color: orange;
+    color: dodgerblue;
 }
 
 .img-responsive,
@@ -49,7 +49,7 @@ height: auto;
     font-family:sans-serif;
     font-weight: 1000;
     line-height: 1.1;
-    color: darkorange;
+    color: dodgerblue;
     
 }
 
@@ -61,7 +61,7 @@ height: auto;
 }
 navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid fade(orange, 30%);
+    border-bottom: 1px solid fade(dodgerblue, 30%);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color:white;
@@ -76,13 +76,13 @@ navbar-custom {
 
 .navbar-custom a {
     
-    color: darkorange;
+    color: dodgerblue;
 }
     .navbar-toggle {
-        background-color: white;
+        background-color: transparent;
         padding: 4px 6px;
         font-size: 16px;
-        color: orange;
+        color: dodgerblue;
         &:focus,
         &:active {
             outline: none;
@@ -102,6 +102,7 @@ navbar-custom {
     .content-section-select {
         padding-top: 250px;
     }
+}
     
 .content-section {
     padding-top: 100px;
@@ -120,20 +121,20 @@ navbar-custom {
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
-    color: orange;
+    color: dodgerblue;
     
 }
 
 .btn-orange-1{
     color: white;
     background-color: darkgray;
-    border-color: darkorange;
+    border-color: dodgerblue;
 }
 
 .btn-orange-2{
     color: white;
-    background-color: darkorange;
-    border-color: darkorange;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
 }
 
 .btn-default:hover, .btn-default:focus {
@@ -160,7 +161,7 @@ text-align: center
 .special {
   font-weight: bold !important;
   color: #fff !important;
-  background-color: darkorange!important;
+  background-color: dodgerblue !important;
   text-transform: uppercase;
 }
 
@@ -168,7 +169,7 @@ text-align: center
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
     color: #fff;
     text-decoration: none;
-    background-color: darkorange;
+    background-color: dodgerblue;
     outline: 0;
 }
 
@@ -224,7 +225,7 @@ text-align: center
     height: auto;
     padding: auto;
     color: #fff;
-    background: url(../img/wallpaper/wallpaper-orange.gif) no-repeat center center scroll;
+    background: url(../img/wallpaper/sky-blue.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -287,7 +288,7 @@ text-align: center
     height: auto;
     padding: auto;
     color: #fff;
-    background: url(../img/wallpaper/wallpaper-orange.gif) no-repeat center center scroll;
+    background: url(../img/wallpaper/sky-blue.jpg) no-repeat center center scroll;
     
 }
 
@@ -302,7 +303,7 @@ text-align: center
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/wallpaper/wallpaper-orange.gif) no-repeat center center scroll;
+    background: url(../img/wallpaper/sky-blue.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -318,6 +319,58 @@ text-align: center
 }
 
 .content-section-seLect {
-    background-color: royalblue;
+    background-color: dodgerblue;
     padding:100px;
 }
+
+/*login.html*/
+
+
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
